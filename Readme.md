@@ -1,11 +1,15 @@
-[![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
+<!-- [![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/) -->
+
+# Express
 
   Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
 
-  [![NPM Version](https://img.shields.io/npm/v/express.svg?style=flat)](https://www.npmjs.org/package/express)
-  [![Build Status](https://img.shields.io/travis/strongloop/express.svg?style=flat)](https://travis-ci.org/strongloop/express)
-  [![Coverage Status](https://img.shields.io/coveralls/strongloop/express.svg?style=flat)](https://coveralls.io/r/strongloop/express)
-  [![Gittip](https://img.shields.io/gittip/dougwilson.svg?style=flat)](https://www.gittip.com/dougwilson/)
+  [![NPM Version][npm-image]][npm-url]
+  [![NPM Downloads][downloads-image]][downloads-url]
+  [![Node.js Version][node-version-image]][node-version-url]
+  [![Build Status][travis-image]][travis-url]
+  [![Test Coverage][coveralls-image]][coveralls-url]
+  [![GitTip][gittip-image]][gittip-url]
 
 ```js
 var express = require('express')
@@ -85,9 +89,9 @@ $ npm start
   * [한국어 문서](http://expressjs.kr) - [[website repo](https://github.com/Hanul/expressjs.kr)]
   * Run express examples [online](https://runnable.com/express)
 
-## Viewing Examples
+## Examples
 
-  Clone the Express repo, then install the dev dependencies to install all the example / test suite dependencies:
+  To view the examples, clone the Express repo & install the dependancies:
 
 ```bash
 $ git clone git://github.com/strongloop/express.git --depth 1
@@ -97,23 +101,16 @@ $ npm install
 
   Then run whichever example you want:
 
-    $ node examples/content-negotiation
+```bash
+$ node examples/content-negotiation
+```
 
-  You can also view live examples here:
+## Tests
 
-  <a href="https://runnable.com/express" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>
-
-## Running Tests
-
-  To run the test suite, first invoke the following command within the repo, installing the development dependencies:
+  To run the test suite, first install the dependancies, then run `npm test`:
 
 ```bash
 $ npm install
-```
-
-  Then run the tests:
-
-```bash
 $ npm test
 ```
 
@@ -123,6 +120,17 @@ $ npm test
  * Lead Maintainer: [Douglas Christopher Wilson](https://github.com/dougwilson)
  * [All Contributors](https://github.com/strongloop/express/graphs/contributors)
 
-### License
+### [MIT Licensed](LICENSE)
 
-  [MIT](LICENSE)
+[npm-image]: https://img.shields.io/npm/v/express.svg?style=flat
+[npm-url]: https://npmjs.org/package/express
+[node-version-image]: https://img.shields.io/node/v/express.svg?style=flat
+[node-version-url]: http://nodejs.org/download/
+[travis-image]: https://img.shields.io/travis/strongloop/express.svg?style=flat
+[travis-url]: https://travis-ci.org/strongloop/express
+[coveralls-image]: https://img.shields.io/coveralls/strongloop/express.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/strongloop/express?branch=master
+[downloads-image]: https://img.shields.io/npm/dm/express.svg?style=flat
+[downloads-url]: https://npmjs.org/package/express
+[gittip-image]: https://img.shields.io/gittip/dougwilson.svg?style=flat
+[gittip-url]: https://www.gittip.com/dougwilson/
